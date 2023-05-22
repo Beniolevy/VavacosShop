@@ -1,0 +1,309 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body 
+{
+    background: #250a85;
+}
+
+/*Começo da parte superior da configuração*/
+
+
+#inicio /*ajustando o tamanho e cor do cabeçalho superior*/
+{
+    padding: 25px 0;
+    background: rgb(39, 39, 39);
+}
+
+.portal /*ajustando largura*/
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#divBusca /*barra de pesquisa*/
+{
+    background-color: #000000;
+    border: solid 2px #2e00fc;
+    border-radius: 10px;
+    width: 650px;
+    height: 30px;
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 10px;
+}
+
+#txtBusca /*barra de pesquisa*/
+{
+    float: left;
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 30px;
+    width: 550px;
+    position: absolute;
+    color: white;
+}
+
+#btnBusca /*barra de pesquisa*/
+{
+    border: none;
+    float: left;
+    height: 28px;
+    border-radius: 0 7px 7px 0;
+    width: 70px;
+    font-weight: bold;
+    background:#3700ff;
+    margin-left: 550px;
+    margin-top: -40;
+    position: absolute;
+    color: white;
+    cursor: pointer;
+}
+
+#divBusca img /*barra de pesquisa*/
+{
+    margin-top: 2px;
+    margin-left: 5px;
+    width: 3.5%;
+    float:left;
+}
+
+.config img /*ajustando o tamanho da imagem de configuração*/
+{
+    width: 3.5%;
+    position: absolute;
+    margin-top: -35px;
+}
+
+.local img /*ajustando a imagem de localização do usuario*/
+{
+    width: 1.5%;
+    margin-left: 100px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.loja a
+{
+    font-size: large;
+    font-family: 'Abel', sans-serif;
+}
+
+.atendimento img /*ajustando a imagem para o atendimento ao cliente*/
+{
+    width: 1.5%;
+    margin-left: 150px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.user img /*ajustando a imagem do usuario*/
+{
+    width: 1.5%;
+    margin-left: 1150px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.favorito img /*ajustando a imagem dos favoritos do usuario*/
+{
+    width: 1.5%;
+    margin-left: 1200px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+.sacola img /*ajustando a imagem da sacola de compras do usuario*/
+{
+    width: 1.5%;
+    margin-left: 1250px;
+    margin-top: -15px;
+    position: absolute;
+}
+
+/*Fim da parte superior da configuração*/
+
+/*Area para logo e links de compra*/
+#shop
+{
+    padding: 10px 0;
+    background-color: #250a85;
+}
+
+#shop img
+{
+    width: 25%;
+}
+
+#shop nav li
+{
+    display: inline;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#shop nav li a
+{
+    color: white;
+    text-decoration: none;
+}
+
+.loja
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+#shop .loja
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/*Fim da area para logo e links de compra*/
+
+/*Começo das opçoes de marcas*/
+
+#marca
+{
+    background: rgb(34, 82, 145);
+    height: 5vh;
+}
+
+.xbox img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 300px;
+}
+
+.play img
+{
+    width: 4%;
+    margin-top: -15px;
+    position: absolute;
+    margin-left: 500px;
+}
+
+.nintendo img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 700px;
+}
+
+.vidia img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 900px;
+}
+
+.ryzen img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 1100px;
+}
+
+.logi img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 1300px;
+}
+
+.intel img
+{
+    width: 5%;
+    margin-top: -20px;
+    position: absolute;
+    margin-left: 1500px;
+}
+
+/*oferta*/
+.oferta img
+{
+    margin-top: -4px;
+    margin-left: -10px;
+}
+
+/*dia*/
+
+#dia
+{
+    position: absolute;
+    background: rgb(39, 39, 39);
+    padding: 10px 10px;
+    margin-left: 300px;
+    margin-top: 260px;
+    width: 134.9vh;
+    display: inline;
+}
+
+#dia h1
+{
+    margin-left: 30px;
+    color: aliceblue;
+}
+
+#dia h2
+{
+    position: absolute;
+    margin-top: -30px;
+    margin-left: 1000px;
+    color: wheat;
+}
+
+/*box*/
+
+.box
+{
+        max-width: 1280px;
+        width: 100%;
+        margin: 0 auto;
+        background:#04333f;
+        height: 55.4vh;
+}
+
+.box button
+{
+    background: #457c8a;
+    border: none;
+    border-radius: 20px;
+    margin-left: 25px;
+    margin-top: 90px;
+    height: 40vh;
+    width: 30vh;
+}
+
+.box button a
+{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.box li
+{
+    display: inline;
+}
+
+.box button img
+{
+    width: 100%;
+}
