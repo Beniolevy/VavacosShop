@@ -249,7 +249,7 @@ body
     position: absolute;
     background: rgb(39, 39, 39);
     padding: 10px 10px;
-    margin-left: 300px;
+    margin-left: 292px;
     margin-top: 260px;
     width: 134.9vh;
     display: inline;
@@ -277,7 +277,7 @@ body
         width: 100%;
         margin: 0 auto;
         background:#04333f;
-        height: 55.4vh;
+        height: 55vh;
 }
 
 .box button
@@ -306,4 +306,161 @@ body
 .box button img
 {
     width: 100%;
+}
+
+/*gorias*/
+
+#gorias
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    background:#04333f;
+    height: 35vh;
+}
+
+#gorias h1
+{
+    color: white;
+    font-family: 'Courier New';
+    position: absolute;
+    margin-left: 55px;
+}
+
+#gorias a h1
+{
+    text-decoration: underline;
+}
+
+#gorias li
+{
+    display: inline;
+}
+
+#gorias img
+{
+    width: 95%; 
+}
+
+#gorias button
+{
+    width: 40vh;
+    height: 18vh;
+    margin-left: 35px;
+    border-radius: 0px 0px 15px 15px;
+    border: none;
+    background:#457c8a;
+    margin-top: 100px;
+}
+
+.per
+{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -215px;
+    margin-left: 35px;
+    color: white;
+    background: rgb(39, 39, 39);
+    padding: 10px 130px;
+    border-radius: 15px 15px 0px 0px;
+    width: 380px;
+}
+
+.games
+{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -215px;
+    margin-left: 454px;
+    color: white;
+    background: rgb(39, 39, 39);
+    padding: 10px 160px;
+    border-radius: 15px 15px 0px 0px;
+    width: 380px;
+}
+
+.pc
+{
+    position: absolute;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: -215px;
+    margin-left: 872px;
+    color: white;
+    background: rgb(39, 39, 39);
+    padding: 10px 130px;
+    border-radius: 15px 15px 0px 0px;
+    width: 380px;
+}
+
+/*fim*/
+
+#fim
+{
+    padding: 10px 0;
+    background: rgb(39, 39, 39);
+    height: 6vh;
+}
+
+.web
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.web footer h1
+{
+    position: absolute;
+    color:#8c00ff;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.web footer h3
+{
+    position: absolute;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 7px;
+    margin-left: 25px;
+    font-size: medium;
+}
+
+.me input 
+{
+    position: absolute;
+    min-width: 250px;
+    border-radius: 20px;
+    border: solid;
+    padding: 5px;
+    margin-left: 400px;
+    margin-top: -15px;
+}
+
+.email input 
+{
+    position: absolute;
+    min-width: 250px;
+    border-radius: 20px;
+    border: solid;
+    padding: 5px;
+    margin-left: 700px;
+    margin-top: -15px;
+}
+
+.cadastro button
+{
+    position: absolute;
+    font-family:Impact;
+    background: #8c00ff;
+    width: 20vh;
+    height: 3vh;
+    border: none;
+    font-size: 1.2em;
+    color: whitesmoke;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+    margin-left: 1000px;
+    margin-top: -15px;
 }
