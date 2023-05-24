@@ -7,7 +7,7 @@
 
 body 
 {
-    background: #250a85;
+    background: rgb(34, 82, 145);
 }
 
 /*Começo da parte superior da configuração*/
@@ -134,7 +134,7 @@ body
 #shop
 {
     padding: 10px 0;
-    background-color: #250a85;
+    background-color: #0d0135;
 }
 
 #shop img
@@ -463,4 +463,109 @@ body
     cursor: pointer;
     margin-left: 1000px;
     margin-top: -15px;
+}
+
+/*ajuda*/
+
+#ajuda
+{
+    padding: 20px;
+    background:#0d0135;
+    height: 25vh;
+}
+
+.op 
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.op h1
+{
+    color: white;
+    font-size: 2.5vh;
+}
+
+.name input
+{
+    min-width: 250px;
+    border-radius: 20px;
+    border: solid;
+    padding: 5px;
+}
+
+.gmail input
+{
+    min-width: 250px;
+    border-radius: 20px;
+    border: solid;
+    padding: 5px;
+}
+
+.text textarea
+{
+    min-width: 250px;
+    border-radius: 20px;
+    border: solid;
+    padding: 5px;
+    resize: none;
+    text-align: center;
+}
+
+.submit button
+{
+    font-family:Impact;
+    background: #8c00ff;
+    width: 26vh;
+    height: 3vh;
+    border: none;
+    font-size: 1.2em;
+    color: whitesmoke;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+/*redes*/
+.sociais
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 510px;
+    margin-top: -200px;
+}
+
+.sociais h1
+{
+    color: #ffffff;
+}
+
+.fotos li
+{
+    display: inline;
+}
+
+.fotos img
+{
+    margin-top: 25px;
+    width: 8%;
+    margin-left: 20px;
+}
+
+/*funcionamento*/
+
+.shop
+{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 1010px;
+    margin-top: -125px;
+}
+
+.shop 
+{
+    color: #ffffff;
 }
