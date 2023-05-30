@@ -493,6 +493,7 @@ body
     border-radius: 20px;
     border: solid;
     padding: 5px;
+    text-align: center;
 }
 
 .gmail input
@@ -501,6 +502,7 @@ body
     border-radius: 20px;
     border: solid;
     padding: 5px;
+    text-align: center;
 }
 
 .text textarea
